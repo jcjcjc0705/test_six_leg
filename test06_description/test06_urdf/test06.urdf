@@ -1279,7 +1279,7 @@
     <parent link="arm_l_3_1"/>
     <child link="wrist_l_1"/>
     <axis xyz="0.422618 -0.906308 0.0"/>
-    <limit effort="100" lower="-3.141575" upper="3.14161" velocity="100"/>
+    <limit effort="100" lower="-3.131138" upper="2.10485" velocity="100"/>
   </joint>
   <joint name="wrist_l_gripper_l" type="revolute">
     <origin rpy="0 0 0" xyz="0.0 0.0 0.0"/>
@@ -1314,7 +1314,7 @@
     <parent link="arm_r_3_1"/>
     <child link="wrist_r_1"/>
     <axis xyz="-0.422618 -0.906308 -0.0"/>
-    <limit effort="100" lower="-3.141575" upper="3.14161" velocity="100"/>
+    <limit effort="100" lower="-3.131138" upper="2.10485" velocity="100"/>
   </joint>
   <joint name="wrist_r_gripper_r" type="revolute">
     <origin rpy="0 0 0" xyz="0.0 0.0 0.0"/>
